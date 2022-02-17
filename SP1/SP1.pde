@@ -38,7 +38,6 @@ void mouseReleased()
   int y=getCoordinate(mouseY);
   assignToMap(x, y);
   rectOrEllipse(x, y);
-  printMap();
 }
 
 void startOrReset() 
